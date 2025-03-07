@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Import routes
-const remindersRouter = require('../routes/');
+const remindersRouter = require('./routes/reminderRoutes');
 app.use('/api', remindersRouter);
 
 // Handle serverless
