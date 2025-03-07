@@ -1,4 +1,5 @@
 // controllers/reminderController.js
+const mongoose = require('mongoose'); // Add this line
 const Reminder = require("../models/remindermodel");
 
 // Get reminder by specific expiry date
