@@ -1,0 +1,3 @@
+
+# PUT http://localhost:3000/reminders?name=manish
+POST http://localhost:3000/reminders/save-firm?firm_name=ABC%20Corp&firm_address=123%20Street%2C%20City&certificate=ISO%209001&issued_date=2025-01-01&expiry_date=2026-01-01

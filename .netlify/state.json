@@ -1,0 +1,21 @@
+{
+	"geolocation": {
+		"data": {
+			"city": "Karnāl",
+			"country": {
+				"code": "IN",
+				"name": "India"
+			},
+			"subdivision": {
+				"code": "HR",
+				"name": "Haryana"
+			},
+			"timezone": "Asia/Kolkata",
+			"latitude": 29.6923,
+			"longitude": 76.986,
+			"postalCode": "132001"
+		},
+		"timestamp": 1740768331157
+	},
+	"siteId": "c227874b-a6a1-4a2d-bd50-6b5827174687"
+}

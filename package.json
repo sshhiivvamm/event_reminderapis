@@ -1,0 +1,20 @@
+{
+  "name": "ddayapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node netlify-functions/server.js",
+    "build": "echo 'No build step for serverless functions'"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.10.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7",
+    "nodemon": "^3.1.9"
+  }
+}

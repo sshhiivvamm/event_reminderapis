@@ -1,0 +1,16 @@
+[build]
+  command = "npm install"
+  publish = "ddayapi/build"   # Ensure this points to your build folder if you have a build folder
+  functions = "netlify-functions"  # This should point to the correct folder containing the serverless functions
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+  force = true
+
+[dev]
+  command = "npm run dev"
+  port = 8888
+  functions = "netlify-functions"
+  publish = "ddayapi/build"
